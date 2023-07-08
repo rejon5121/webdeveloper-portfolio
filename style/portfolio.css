@@ -1,8 +1,9 @@
 /* nav related styles*/
 
 body{
-    font-family: 'Lato','sans-serif';
+    
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato','sans-serif';
 }
 .text-color{
     color:#FD6E0A;
@@ -12,6 +13,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items: center;
+    margin:0 200px;
 
 }
 .nav-title{
@@ -39,4 +41,16 @@ font-weight: 700;
 font-size: 20px;
 color:white;
 padding:15px 35px;
+}
+/* header related styles*/
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding:50px 30px 30px 150px;
+    display:flex;
+    align-items:center;
+}
+.banner .pro-pic{
+   width:500px;
 }
